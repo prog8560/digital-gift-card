@@ -1,0 +1,72 @@
+body{
+    width: 1200px;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid black;
+}
+
+header{
+    margin-bottom: 0px;
+}
+
+header img{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+nav{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 45px 0px 45px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.customer-info{
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+.inner-info label{
+    display: inline-block;
+    width: 200px;
+    margin: 10px 0px;
+    text-align:left;
+}
+
+.first-info label{
+    display: inline-block;
+    text-align: center;
+}
+
+.gift-card-selection{
+    padding: 20px;
+}
+
+.card-selection label{
+    display: inline-block;
+    width: 350px;
+    margin: 10px 0px;
+    text-align:left;
+}
+
+.card-selection select{
+    display: inline-block;
+    width: 60px;
+    margin: 10px 0px;
+    text-align:left;
+}
+
+.btn{
+    margin-bottom: 20px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; */
+}

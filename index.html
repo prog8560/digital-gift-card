@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HOME PAGE</title>
+</head>
+<body>
+    <header>
+        <!-- <img src="images/logo.jpg" alt="Company Logo"> -->
+        <h1>ScaNation</h1>
+        <h3>Digital Gift Card Generator</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Directions</a></li>
+            <li><a href="">Bloom Menu</a></li>
+            <li><a href="">Bloom Insta</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="">
+            <section class="customer-info">
+                <div>
+                    <div class="inner-info first-info">
+                        <label> GIFT CARD IS FOR ? </label>
+                        <div class="inner-info-1">
+                            <input type="radio" id="customer" name="identity-customer" value="Customer">
+                            <label for="customer">Customer</label>
+                        </div>
+                        <div class="inner-info-1">
+                            <input type="radio" id="friend" name="identity-customer" value="friend">
+                            <label for="friend">Friend</label>
+                        </div>
+                    </div>
+                    <div class="inner-info">
+                        <label for="customer-for">Name*</label>
+                        <input type="text" id="customer-for" name="customer-for" required>
+                    </div>
+                    <div class="inner-info">
+                        <label for="customer-for-email">Email*</label>
+                        <input type="email" id="customer-for-email" name="customer-for-email" required>
+                    </div>
+                    <div class="inner-info">
+                        <label for="customer-buying">Your Name*</label>
+                        <input type="text" id="customer-buying" name="customer-buying" required>
+                    </div>
+                    <div class="inner-info">
+                        <label for="customer-buying-email">Your Email*</label>
+                        <input type="email" id="customer-buying-email" name="customer-buying-email" required>
+                    </div>
+                    <div class="inner-info">
+                        <label for="department">Department (optional)</label>
+                        <input type="text" id="department" name="department">
+                    </div>
+                </div>
+            </section>
+            <section class="gift-card-selection">
+                <div>
+                    <div class="card-selection">
+                        <label for="people-count">Select number of people: </label>
+                        <select name="people-count" id="people-count">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    <!-- option 1 and option 2 should add up to total number of people -->
+                    <div class="card-selection">
+                        <label for="meal-option-1">Select number of 2 course meal</label>
+                        <select name="meal-option-1" id="meal-option-1">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    <div class="card-selection">
+                        <label for="meal-option-2">Select number of 3 course meal</label>
+                        <select name="meal-option-2" id="meal-option-2">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+            <div class="btn">
+                <input type="submit" value="SUBMIT">
+                <input type="reset" value="RESET">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
